@@ -4,7 +4,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 #login-container {
@@ -54,17 +54,21 @@ body {
 }
 
 header {
-    width: 100%;
-    background-image: url('header5.jpg');
-    background-size: cover; /* Ajusta la imagen para cubrir todo el header */
-    background-position: left; /* Centra la imagen */
-    background: #42464e;
+    position: fixed;
+    top: 0;
+    text-align:left;
+    padding: 10px 0;
+    background: #333;
     color: white;
-    padding: 1rem 0;
-    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
 }
 
 height: 50px; /* Altura del header */
+width: 100%; /* Ancho del header */
 color: white; /* Color del texto */
 display: flex; /* Utiliza flexbox para alinear el contenido */
 align-items: :left; /* Centra verticalmente el contenido */
