@@ -1,6 +1,6 @@
 const validCredentials = {
-    username: "usuario",
-    password: "c901522492c"
+    username: "usuario", "Distrilorica",
+    password: "c901522492c", "7378950"
 };
 
 document.getElementById('login-btn').addEventListener('click', function() {
