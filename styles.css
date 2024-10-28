@@ -2,8 +2,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
     align-items: left;
 }
 
@@ -66,20 +64,6 @@ header {
     box-sizing: border-box;
     z-index: 1000;
 }
-
-height: 50px; /* Altura del header */
-width: 100%; /* Ancho del header */
-color: white; /* Color del texto */
-display: flex; /* Utiliza flexbox para alinear el contenido */
-align-items: :left; /* Centra verticalmente el contenido */
-justify-content: :left; /* Centra horizontalmente el contenido */
-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Añade sombra al texto */
-}
-
-main {
-padding: 20px; /* Espaciado para el contenido principal */
-}
-
 
 section {
     padding: 20px;

@@ -26,11 +26,6 @@ document.getElementById('logout-button').onclick = async function() {
 
 
 
-
-
-
-
-
 document.getElementById('search').addEventListener('keyup', function() {
     const filter = this.value.toLowerCase();
     const rows = document.querySelectorAll('#data-table tbody tr');
@@ -40,20 +35,7 @@ document.getElementById('search').addEventListener('keyup', function() {
     });
 });
 
-function resetSessionTimeout() {
-    // Clear previous timeout
-    clearTimeout(timeoutId);
-    
-    // Set new timeout to log out after 5 minutos (300000 ms)
-    timeoutId = setTimeout(() => {
-        alert('Sesión cerrada por inactividad.');
-        logout();
-    }, 300000);
 
-    // Reset timeout on user activity
-    document.onmousemove = resetSessionTimeout;
-    document.onkeypress = resetSessionTimeout;
-}
 
 function logout() {
     document.getElementById('login-container').style.display = 'block';
