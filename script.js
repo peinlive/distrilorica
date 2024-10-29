@@ -1,5 +1,5 @@
 const validCredentials = {
-    username: "Distrilorica"
+    username: "Distrilorica",
     password: "7378950",
 };
 
