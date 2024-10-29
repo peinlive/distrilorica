@@ -42,7 +42,7 @@ function logout() {
     document.getElementById('table-container').style.display = 'none';
     document.getElementById('username').value = '';
     document.getElementById('password').value = '';
-    clearTimeout(timeoutId);
+    
 }
 
 
